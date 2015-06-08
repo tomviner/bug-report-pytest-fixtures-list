@@ -6,12 +6,16 @@ Example project to show incorrect listing of `py.test --fixtures`
 ./project/app1/tests/conftest.py
 ./project/app2/tests/conftest.py
 
-(pytest-fixture-find)~/dev/pytest-fixture-find$ ack-grep --py "def fix"
+(pytest-fixture-find)~/dev/pytest-fixture-find$ ack-grep --py --context 1 "def fix"
 project/app1/tests/conftest.py
+3-@pytest.fixture
 4:def fixy1():
+5-    pass
 
 project/app2/tests/conftest.py
+3-@pytest.fixture
 4:def fixy2():
+5-    pass
 
 $ py.test --fixtures --traceconfig
 PLUGIN registered: <_pytest.python.FixtureManager instance at 0x7f2af6b43440>
