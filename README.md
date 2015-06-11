@@ -66,13 +66,13 @@ active plugins:
     140252386548176     : <_pytest.config.PytestPluginManager object at 0x7f8f0dadd9d0>
     junitxml            : /home/me/.virtualenvs/pytest-fixture-find/local/lib/python2.7/site-packages/_pytest/junitxml.pyc
     doctest             : /home/me/.virtualenvs/pytest-fixture-find/local/lib/python2.7/site-packages/_pytest/doctest.pyc
-    /home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/conftest.pyc: /home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/conftest.pyc
+    /home/me/dev/pytest-fixture-find/conftest.pyc: /home/me/dev/pytest-fixture-find/conftest.pyc
     pdb                 : /home/me/.virtualenvs/pytest-fixture-find/local/lib/python2.7/site-packages/_pytest/pdb.pyc
-rootdir: /home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find, inifile:
-PLUGIN registered: <module 'conftest' from '/home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/project/conftest.pyc'>
-PLUGIN registered: <module 'conftest' from '/home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/app3/tests/conftest.pyc'>
-PLUGIN registered: <module 'conftest' from '/home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/project/app1/tests/conftest.pyc'>
-PLUGIN registered: <module 'conftest' from '/home/me/Dropbox/DellXPS-backup/dev/pytest-fixture-find/project/app2/tests/conftest.pyc'>
+rootdir: /home/me/dev/pytest-fixture-find, inifile:
+PLUGIN registered: <module 'conftest' from '/home/me/dev/pytest-fixture-find/project/conftest.pyc'>
+PLUGIN registered: <module 'conftest' from '/home/me/dev/pytest-fixture-find/app3/tests/conftest.pyc'>
+PLUGIN registered: <module 'conftest' from '/home/me/dev/pytest-fixture-find/project/app1/tests/conftest.pyc'>
+PLUGIN registered: <module 'conftest' from '/home/me/dev/pytest-fixture-find/project/app2/tests/conftest.pyc'>
 collected 3 items
 capsys
     enables capturing of writes to sys.stdout/sys.stderr and makes
